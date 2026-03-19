@@ -6,7 +6,7 @@ let zoomLevel = 1;
 // 📄 페이지 생성
 for (let i = 1; i <= totalPages; i++) {
   flipbook.append(`
-    <div><img src="images/page${i}.jpg"></div>
+    <div><img src="./images/page${i}.jpg"></div>
   `);
 }
 
